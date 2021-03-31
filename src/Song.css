@@ -1,0 +1,44 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding-left: 20px;
+  width: 300px;
+}
+
+.img {
+  height: 80px;
+  width: 80px;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 20px;
+  padding-bottom: 10px;
+}

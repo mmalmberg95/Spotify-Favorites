@@ -1,0 +1,21 @@
+.player {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  height: 100vh;
+  background: linear-gradient(#41b997, #5fffd2);
+  overflow-y: scroll;
+}
+
+/* .player__body {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  height: 75vh;
+  width: 75vw;
+  background: #d3f7ff;
+  overflow: scroll;
+  color: #5cc1a4;
+} */

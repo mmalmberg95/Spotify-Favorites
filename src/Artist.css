@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+}
+
+.container.artist--grid {
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  /* margin: 10px auto; */
+  margin: 10px 10px 10px 0;
+}
+
+.item.artist--grid {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.artist.artist--list {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 250px;
+}
+
+.artist.artist--grid {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img.artist--list {
+  height: 80px;
+  width: 80px;
+}
+
+.img.artist--grid {
+  height: 200px;
+  width: 200px;
+}
